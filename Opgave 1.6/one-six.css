@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+#displayInfo {
+    margin-left: 2rem;
+}
