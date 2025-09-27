@@ -69,9 +69,9 @@ function renderHeroes() {
 
 renderHeroes();
 
-// Form handler
-document.getElementById("hero-form").addEventListener("submit", e => {
-  e.preventDefault();
+document.getElementById("hero-form").addEventListener("submit", formEvent => {
+  formEvent.preventDefault(); // stop standard genindlæsning
+
   const newHero = {
     heroName: document.getElementById("heroName").value,
     alterEgo: document.getElementById("alterEgo").value,
@@ -82,8 +82,6 @@ document.getElementById("hero-form").addEventListener("submit", e => {
   };
 
   canLiftMjolnir.push(newHero);
-
   renderHeroes();
-  
-  e.target.reset(); // clear form
+  formEvent.target.reset(); // rydder formularen
 });
