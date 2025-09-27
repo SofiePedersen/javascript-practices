@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(238, 177, 197);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: rgb(252, 0, 126);
+}
+
+#displayInfo {
+    margin-left: 2rem;
+}
