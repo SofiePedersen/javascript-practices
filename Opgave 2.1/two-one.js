@@ -9,7 +9,7 @@ const items = [
   "druer",
   "jordbær",
   "blåbær",
-  "banan",  // gentaget værdi
+  "banan",  // Gentagelse
   "kiwi"
 ];
 
