@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(238, 177, 197);
+    background-color: rgb(154, 189, 172);
 }
 
 h1 {
     font-size: 3rem;
     margin-left: 2rem;
-    color: rgb(252, 0, 126);
+    color: rgb(74, 94, 84);
 }
 
 #displayInfo {
